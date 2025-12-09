@@ -17,7 +17,7 @@ Make sure your NumPy version is compatible with TTS, SciPy, and Torch (recommend
 ## Usage
 Run the main application
 ```
-streamlit run app.py
+streamlit run main.py
 ```
 To test live voice recording and cloning run :
 ```
