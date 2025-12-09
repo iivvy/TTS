@@ -1,0 +1,34 @@
+# TTS 
+# scipy
+# torch==2.5.1
+# gradio
+# torchaudio
+# transformers==4.35.2  # or the latest version of the xtts library
+# streamlit
+# soundfile
+# numpy
+# matplotlib
+# coqui-tts
+
+
+# Core
+numpy==1.22.0
+scipy
+matplotlib==3.7.1
+
+# Torch & audio
+torch==2.0.1
+torchaudio==2.0.2
+
+# TTS and transformers
+TTS==0.20.2
+transformers==4.33.0
+
+# UI
+streamlit==1.25
+gradio==3.50
+
+# Audio I/O
+soundfile==0.12.1
+coqui-tts
+
