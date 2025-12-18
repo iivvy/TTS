@@ -31,22 +31,14 @@ def clickable_rectangle(name):
     if st.button(name):
         st.session_state.voice_choice = name
 
-# Circles + rectangles
+
 with col1:
-    # st.markdown(
-    #     "<div style='width:120px; height:120px; border-radius:75px; background-color:#4B0082; margin:auto;'></div>",
-    #     unsafe_allow_html=True
-    # )
     st.markdown("<div style='height:15px;'></div>", unsafe_allow_html=True)
     rect_color = "#FFD700" if st.session_state.voice_choice == "Rekrouk Abdelmoumen" else "#4B0082"
  
     clickable_rectangle("Rekrouk Abdelmoumen")
 
 with col2:
-    # st.markdown(
-    #     "<div style='width:120px; height:120px; border-radius:75px; background-color:#FF0000; margin:auto;'></div>",
-    #     unsafe_allow_html=True
-    # )
 
     st.markdown("<div style='height:15px;'></div>", unsafe_allow_html=True)
     rect_color = "#FFD700" if st.session_state.voice_choice == "Mehadji Raho Mohamed Hamza" else "#FF0000"
